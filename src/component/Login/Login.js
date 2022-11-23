@@ -7,7 +7,6 @@ import './login.css'
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 
-
 const Login = () => {
     const [isVisible, setIsVisible] = useState(false);
     const email = useRef();
@@ -65,9 +64,7 @@ const Login = () => {
                     </div>
                 </div>
                 <div className="loginRight">
-
                     <img src='assets/login.svg' alt="" className="loginRightImg" />
-                    <span className="loginDesc"> connect with friends and world around you on SocieX.</span>
                 </div>
 
             </div>
