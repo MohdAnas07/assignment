@@ -7,7 +7,6 @@ ul {
   box-sizing: border-box;
 }
 
-
 body {
   background: #c8e4fe !important;
   min-height: 100vh;
@@ -16,12 +15,39 @@ body {
   font-family: 'Fira Sans', sans-serif;
 }
 
-
+/* 
 h1,
 h2,
 label,
 span {
   font-weight: 500;
   font-family: 'Fira Sans', sans-serif;
+} */
+
+
+:root{
+  --primary-color: #536DFE;
+  /* --primary-color: #6C63FF; */
+  --secondary-color:#fff;
+  
+
+
+  --primary-border: 2px solid;
+  --secondary-border: 1px solid;
+
+  --primary-font-size: 50px;
+
 }
 
+button, a{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+li{
+  list-style: none;
+}
