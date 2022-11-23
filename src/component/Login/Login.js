@@ -52,7 +52,7 @@ const Login = () => {
                             <div className="loginPasswordVisibility">
                                 <input type={!isVisible ? "password" : "text"} required placeholder='Password'
                                     ref={password} minLength="6" className='loginInput passwordInput inputText' />
-                                {isVisible ? <VisibilityIcon className='visibilityIcon visibleOn' onClick={passwordVisibleHandler} /> : <VisibilityOffIcon className='visibilityIcon' onClick={passwordVisibleHandler} />}
+                                {isVisible ? <VisibilityOffIcon className='visibilityIcon visibleOn' onClick={passwordVisibleHandler} /> : <VisibilityIcon className='visibilityIcon' onClick={passwordVisibleHandler} />}
 
                             </div>
                             <button disabled={loading} className="loginButton" >Log In</button>
